@@ -4,7 +4,7 @@
 source("readData.R")
 
 png("plot3.png")
-plot(x_axis, usable_data$Sub_metering_1, type="n", ylab = "Energy Sub Metering", xlab="")
+plot(x_axis, usable_data$Sub_metering_1, type="n", ylab = "Energy sub metering", xlab="")
 points(x_axis, usable_data$Sub_metering_1, type='l', col='black')
 points(x_axis, usable_data$Sub_metering_2, type='l', col='red')
 points(x_axis, usable_data$Sub_metering_3, type='l', col='blue')

@@ -1,7 +1,7 @@
 # Read the file
 classes <- list("Global_active_power"="numeric")
 
-if (! "data" %in% ls()){
+if (!exists("usable_data")){
  # If data is not already loaded, then only load it
  # Saves time if other plots have been loaded already
  

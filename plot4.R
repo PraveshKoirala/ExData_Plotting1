@@ -5,7 +5,7 @@ source("readData.R")
 
 png("plot4.png")
 par(mfrow=c(2,2))
-plot(x_axis, usable_data$Global_active_power, type="l", xlab="", ylab = "Global Active Power (kilowatts)")
+plot(x_axis, usable_data$Global_active_power, type="l", xlab="", ylab = "Global Active Power")
 
 plot(x_axis, usable_data$Voltage, type="l", ylab = "Voltage", xlab = "datetime")
 
